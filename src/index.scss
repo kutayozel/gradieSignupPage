@@ -1,4 +1,35 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width:40em) {
+  html{
+    background: url(imgs/Background.png);
+    // .login{
+    //   background-color: white;
+    // }
+
+  }
+}
+
+@media screen and (min-width: 80em) {
+  .login{
+    padding: 10em;
+    flex-direction: row;
+    background-image: url(imgs/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-color: palevioletred;
+
+    .bottomPart {
+      flex: 1;
+      background: white;
+    }
+
+    .headerImg {
+      flex: 1;
+    }
+  }
 }
