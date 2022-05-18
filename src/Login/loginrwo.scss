@@ -2,17 +2,21 @@
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  
+  .topPart {
 
 
-  .headerImg {
-    background-color: rgb(8, 19, 40);
-    // height: 50%;
-    // width: 100%;
-    
-    img {
+    .headerImg {
+      background-color: rgb(8, 19, 40);
       height: 100%;
-      width: 100%;
+      // width: 100%;
+      
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
+
   }
 
 

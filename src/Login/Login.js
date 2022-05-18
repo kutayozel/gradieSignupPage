@@ -5,8 +5,11 @@ import Mockup from '../imgs/Mockup.png'
 const Login = () => {
   return (
     <div className='login'>
-      <div className="headerImg">
-        <img src={Mockup} alt="img" />
+      <div className="topPart">
+        <div className="headerImg">
+          <img src={Mockup} alt="img" />
+        </div>
+
       </div>
       <div className='bottomPart'>
         <div className="loginForm">
